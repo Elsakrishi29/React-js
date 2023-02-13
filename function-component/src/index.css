@@ -1,0 +1,578 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+                  /*Navigation*/
+.navigation{
+    width:100%;
+    margin:0 auto;
+    justify-content:space-evenly;
+    display:flex;
+    border:1px solid white;
+    top:0px;
+    background-color:white;
+    position:fixed;
+    z-index:1;
+}  
+.nav-header{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: cursive;
+}  
+.color:hover{
+	color:skyblue;
+}
+.content-1 h1{
+	font-weight:50;
+	font-size:20px;
+	color:#0f394c;
+	font-family:sans-serif;
+	
+}
+.navbar nav a{
+	text-decoration:none;
+	color:grey;
+  font-weight: 900;
+	font-family:sans-serif;
+	font-size:12px;
+	padding-left:30px;
+	transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}              
+
+                  /*About Section*/
+
+.background-img{
+  background-image:linear-gradient(#1b141473,#444444a1),url("https://inspirothemes.com/polo/homepages/bakery/slider/slide2.jpg");
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+/*.background-img:hover{
+  transform: translate3d(0px, 0px, 0px) scale(1.1, 1.1);
+  transform-origin: 0% 0% 0px;
+  transition-timing-function: ease;
+}*/
+.aboutimg{
+  display: flex;
+  justify-content: center;
+  padding: 150px 70px 10px 70px;
+}
+.aboutimg img{
+  width:100%;
+}
+.aboutimg-para{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.about-para{
+  text-align: center;
+  color:white;
+  font-size: 2rem;
+}
+.about-btn{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.about-btn button{
+  border:3px solid white;
+  border-radius:50px;
+  height:50px;
+  width:150px;
+  background-color: #ffffff00;
+  color:white;
+}
+.about-btn button:hover{
+  border:3px solid white;
+  border-radius:50px;
+  height:50px;
+  width:150px;
+  background-color: white;
+  color:black;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+                            /*Content*/
+
+.content-bgclr{
+  background-color: lavender;
+}
+.container{
+  width:80%;
+  margin:0 auto;
+}
+.content-polo{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 20px 0px;
+}  
+ 
+.cont-polo-para{
+  text-align: center;
+  color:gray;
+}  
+.polo-btn{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 50px 0px;
+}                     
+.polo-btn button{
+  border:1px solid rgb(93, 93, 250);
+  background-color: rgb(93, 93, 250);
+  color:white;
+  height: 40px;
+  width:150px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}      
+.polo-btn button:hover{
+  border:1px solid rgb(39, 39, 248);
+  background-color: rgb(39, 39, 248);
+  color:white;
+  height: 40px;
+  width:150px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+} 
+
+                        /*Content-1*/
+
+.banner-flex{
+  margin-top: 100px;
+}
+.banner-img{
+  padding: 20px;
+}
+.banner-content{
+  width:50%;
+  text-align: center;
+  padding: 20px 30px 30px 30px;
+}
+.banner-img-1 img{
+  width:100%;
+}
+.banner-head{
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive !important;
+    padding: 10px;
+}
+.banner-btn{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 10px 0px;
+  margin-top: 20px;
+}
+.banner-btn button{
+  border:3px solid black;
+  background-color: white;
+  color:black;
+  height: 40px;
+  width:130px;
+  border-radius: 5px;
+}
+.banner-btn button:hover{
+  border:3px solid black;
+  background-color: black;
+  color:white;
+  height: 40px;
+  width:150px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+                        /*Cards*/
+.row{
+  margin-top: 100px;
+} 
+.col{
+  padding:20px;
+}                       
+.food-img img{
+  width:100%;
+}
+.food-head{
+  text-align: center;
+}
+.food-para{
+  text-align: center;
+  color: gray;
+}
+
+                    /*Menu*/
+.menu-bgimg{
+  background-image:linear-gradient(#1b141473,#444444a1),url("https://inspirothemes.com/polo/homepages/bakery/images/parallax/2.jpg");
+  background-position:center;
+  background-size:cover;
+  background-attachment:scroll;
+} 
+.menu-top{
+  margin-top: 100px;
+} 
+.hot-menu{
+  font-weight: 900;
+  color:white;
+  font-family: 'Pacifico', cursive !important;
+}   
+.hot-menu-img{
+  padding-bottom: 100px;
+}  
+.col-1{
+  display:flex;
+}
+.menu-col{
+  padding:20px 0px 0px 20px;
+}   
+.food-img-1 img{
+  border-radius: 50%;
+}    
+.hot-menu-content{
+  color:white;
+  padding: 10px 0px 0px 20px;
+}        
+.hot-head{
+  font-size: 30px;
+  font-family: cursive;
+}
+.hot-para{
+  text-align: center;
+  color:gray;
+  padding:10px;
+}
+.hot-rs{
+  text-align: center;
+  padding:0px 10px 10px 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+                              /*Our Blog*/
+.blog-bgd{
+  background-color: #F7F9FB !important;
+} 
+.our-blog{
+  font-weight: 900;
+  color:black;
+  font-family: 'Pacifico', cursive !important;
+} 
+.food-img-2 img{
+  width:100%;
+}  
+.blog-menu-content{
+  background-color: white;
+  padding: 20px;
+}   
+.blog-time{
+  color:rgb(187, 184, 184);
+}  
+.blog-head{
+  color:black;
+  padding: 10px 0px 20px 0px;
+} 
+.blog-head:hover{
+  color: blue;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.blog-para{
+  color:gray;
+  padding: 0px 0px 20px 0px;
+  font-weight: 600;
+} 
+a{
+  text-decoration: none;
+  padding: 20px 0px 20px 0px;
+  color:rgb(48, 47, 47);
+  font-size: 12px;
+}  
+.blog-more:hover{
+  color:blue;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}  
+
+                              /*Contact*/
+
+.Contact-sec{
+  padding-top: 60px;
+  padding-bottom: 60px;
+} 
+.contact-section{
+  background-color: #F7F9FB !important;
+} 
+ul li{
+  list-style-type: none;
+  line-height: 30px;
+}  
+.contact-head{
+  padding:20px 20px 20px 0px;
+}
+.contact-btn{
+  margin-top: 40px;
+}
+.contact-btn button{
+  border:1px solid rgb(93, 93, 250);
+  background-color: rgb(93, 93, 250);
+  color:white;
+  height: 40px;
+  width:150px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}      
+.contact-btn button:hover{
+  border:1px solid rgb(39, 39, 248);
+  background-color: rgb(39, 39, 248);
+  color:white;
+  height: 40px;
+  width:150px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+} 
+
+                      /*Footer*/
+.footer-para{
+  text-align: center;
+  padding: 50px;
+  color:rgb(97, 96, 96);
+}   
+.footer{
+  background-color:  #eff1f4 !important;
+}  
+.gototop{
+	position:fixed;
+	bottom:10px;
+	right:30px;
+
+}
+.gototop a{
+	text-decoration:none;
+}
+.gototop i{
+	border:1px solid rgb(165, 162, 162);
+	border-radius:50%;
+	height:40px;
+	width:40px;
+	background-color:rgb(165, 162, 162);
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+}   
+
+@media (min-width:320px){
+  .navbar nav{
+		display:none;
+	}	
+                   /*Content*/
+.polo{
+  font-weight: 700;
+  font-family: 'Pacifico', cursive !important;;
+} 
+                  /*Banner*/
+ .banner-img{
+  width:100%;
+} 
+.banner-content{
+ width:100%;
+}   
+
+                  /*cards*/
+.col{
+  width:100%;
+  padding:20px;
+}  
+
+                  /*Hot Menu*/
+.hot-menu{
+  font-size: 20px;
+}  
+.menu-col{
+  width:100%;
+}   
+                  /*Our blog*/
+.blog-col{
+  width:100%;
+}                             
+
+                /*Contact*/
+.contact-1{
+  width:100%;
+}  
+.contact{
+  width:100%;
+}                   
+}
+
+
+
+@media(min-width:720px){
+  .navbar nav{
+		display:none;
+	}	
+                    /*Content*/
+.polo{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Pacifico', cursive !important;;
+}  
+
+                    /*Banner*/
+.banner-img{
+   width:100%;
+} 
+.banner-content{
+  width:100%;
+}     
+
+                    /*cards*/
+.col{
+  width:50%;
+}  
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}   
+
+                  /*Hot Menu*/
+.hot-menu{
+  font-size: 3rem;
+}
+.menu-col{
+  width:100%;
+}   
+
+                  /*Our blog*/
+.blog-col{
+  width:100%;
+}               
+
+                  /*Contact*/
+.Contact-sec{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+} 
+.contact-1{
+  width:60%;
+}  
+.contact{
+  width:40%;
+}                               
+}
+
+
+
+@media(min-width:1020px){
+  .navbar nav{
+		display:contents;
+	}	
+  .navbar nav{
+    padding-left:100px;
+   display: flex;
+   align-items: center;
+  }
+
+              /*Content*/
+.polo{
+   font-size: 5rem;
+   font-weight: 900;
+   font-family: 'Pacifico', cursive !important;;
+}  
+
+              /*Banner*/
+.banner-flex{
+   display: flex;
+   margin-top: 100px;
+}  
+.banner-img{
+  width:50%;
+} 
+.banner-content{
+  width:50%;
+}   
+
+                /*cards*/
+.col{
+   width:25%;
+} 
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}   
+
+              /*Hot Menu*/
+.hot-menu{
+  font-size: 5rem;
+}  
+.menu-col{
+  width:50%;
+}   
+.hot-menu-img{
+  display: flex;
+  justify-content: space-between;
+}   
+
+              /*Our blog*/
+.blog-col{
+  width:50%;
+}                
+.blog-menu-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+.our-blog{
+  font-size: 4rem;
+}              
+
+              /*Contact*/
+.Contact-sec{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+} 
+.contact-1{
+  width:40%;
+}  
+.contact{
+  width:10%;
+}  
+
+}

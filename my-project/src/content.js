@@ -22,6 +22,7 @@ function Content(){
         </div>
     </div>
     </section>
+    
     )
 }
 
